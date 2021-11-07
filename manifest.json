@@ -9,7 +9,7 @@
     "background": {
         "scripts": ["background.js"]
     },
-    "permissions" : ["contextMenus", "activeTab"],
+    "permissions" : ["contextMenus", "activeTab", "storage"],
     "content_scripts": [
         {
             "matches": ["http://*/*", "https://*/*"],
