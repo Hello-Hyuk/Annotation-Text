@@ -5,7 +5,7 @@
 // });
 
 var port = chrome.extension.connect({
-    name: "Sample Communication"
+    name: "selected text transfer"
 });
 
 port.postMessage("Hi BackGround");
